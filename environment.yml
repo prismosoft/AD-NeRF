@@ -131,7 +131,7 @@ dependencies:
     - portalocker==2.3.0
     - protobuf==3.17.3
     - python-speech-features==0.6
-    - pytorch3d==https://github.com/facebookresearch/pytorch3d/archive/refs/tags/v0.5.0.tar.gz
+    - pytorch3d@https://github.com/facebookresearch/pytorch3d/archive/refs/tags/v0.5.0.tar.gz
     - pywavelets==1.1.1
     - pyyaml==5.4.1
     - requests==2.25.1
