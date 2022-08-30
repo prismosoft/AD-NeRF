@@ -11,13 +11,6 @@ Authors: [Yudong Guo](https://yudongguo.github.io/), [Keyu Chen](http://kychern.
     conda env create -f environment.yml
     conda activate adnerf
     ```
-- [PyTorch3D](https://github.com/facebookresearch/pytorch3d)
-
-    Recommend install from a local clone
-    ```
-    git clone https://github.com/facebookresearch/pytorch3d.git
-    cd pytorch3d && pip install -e .
-    ```
 - [Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-1-0&id=details) 
 
     Put "01_MorphableModel.mat" to data_util/face_tracking/3DMM/; cd data_util/face_tracking; run
