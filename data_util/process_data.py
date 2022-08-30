@@ -180,7 +180,7 @@ if running_step == 5:
 
 # Step 6: estimate head pose
 if running_step == 6:
-    print('--- Estimate Head Pose ---')
+    print('--- Step 6: Estimate Head Pose ---')
     est_pose_cmd = 'python data_util/face_tracking/face_tracker.py --idname=' + \
         id + ' --img_h=' + str(h) + ' --img_w=' + str(w) + \
         ' --frame_num=' + str(max_frame_num)
